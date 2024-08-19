@@ -18,7 +18,7 @@ zoneight234
 7pqrstsixteen
 `
 
-func TestPart2(t *testing.T) {
+func TestDay01Part02(t *testing.T) {
 	sum := 0
 
 	utils.IterateOverLines(examplePart2, func(line string) {

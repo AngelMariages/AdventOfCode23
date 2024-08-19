@@ -14,7 +14,7 @@ a1b2c3d4e5f
 treb7uchet
 `
 
-func TestPart1(t *testing.T) {
+func TestDay01Part01(t *testing.T) {
 	sum := 0
 
 	utils.IterateOverLines(examplePart1, func(line string) {
